@@ -4,6 +4,7 @@ metadata:
   name: backstage-testing
   annotations:
     github.com/project-slug: Chris-Testing-Company/backstage-testing
+    backstage.io/code-coverage: dir:.
 spec:
   type: other
   lifecycle: unknown
