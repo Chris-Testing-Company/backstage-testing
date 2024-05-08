@@ -8,3 +8,24 @@ spec:
   type: other
   lifecycle: unknown
   owner: rnd_sre
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: ai-data-science
+  title: AI & Data Science
+  labels:
+    github_team: rnd_area51_ai
+  links:
+    - url: https://arcticwolf.atlassian.net/wiki/spaces/PD/pages/2849015279
+      title: "Team: SIA - Area 51"
+      icon: dashboard
+    - url: https://github.com/orgs/rtkwlf/teams/rnd_area51_ai/repositories
+      title: "GitHub Repositories"
+      icon: github
+spec:
+  type: team
+  children: [ ]
+  profile:
+    displayName: R&D - AI & Data Science

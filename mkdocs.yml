@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mkdocs
+data:
+  mkdocs.yaml: |-
+    site_name: 'Backstage-Testing'
+    nav:
+      - Home: index.md
+    plugins:
+      - techdocs-core
