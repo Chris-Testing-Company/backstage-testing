@@ -3,5 +3,4 @@ site_description: An informative description
 plugins:
   - techdocs-core
 nav:
-  - Getting Started: index.md
   - Section1: section1/index.md
