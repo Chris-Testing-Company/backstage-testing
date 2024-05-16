@@ -6,7 +6,7 @@ metadata:
     github.com/project-slug: Chris-Testing-Company/backstage-testing
     backstage.io/techdocs-ref: dir:.
     jira/project-key: AWN
-    jira/component: "AM_2024.05"
+    jira/label: backstage_testing
 spec:
   type: other
   lifecycle: unknown
