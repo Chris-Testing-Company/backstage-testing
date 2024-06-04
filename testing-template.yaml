@@ -94,7 +94,7 @@ spec:
         targetPath: ./target
         values:
           repo: ${{ parameters.repo }}
-        cookiecutterCompat: true
+        # cookiecutterCompat: true
         templateFileExtension: yaml
     - action: publish:github:pull-request
       name: Create Github Pull Request
