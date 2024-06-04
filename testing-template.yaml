@@ -86,6 +86,10 @@ spec:
 
   # here's the steps that are executed in series in the scaffolder backend
   steps:
+    - action: debug:log
+      name: Debug Log Line
+      input:
+        message: repo_url https://github.com/${{ parameters.github_org }}/${{ parameters.repo }}
     - action: fetch:template
       id: fetch-template
       name: Fetch template
