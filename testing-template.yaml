@@ -103,7 +103,7 @@ spec:
     - action: publish:github:pull-request
       name: Create Github Pull Request
       input:
-        repoUrl: https://github.com/${{ parameters.github_org }}/${{ parameters.repo }}
+        repoUrl: https://github.com/rtkwlf/backstage
         branchName: add-catalog-info-file
         title: Add catalog-info.yaml to repo
         description: This PR is created by Backstage template entity. It is going to insert a catalog-info.yaml to repo for use in Backstage.
