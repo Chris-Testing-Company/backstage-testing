@@ -1,0 +1,22 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: GITHUB_ORG-REPO
+  title: SERVICE_DISPLAY_NAME
+  description: REPO_DESCRIPTION
+  annotations:
+    backstage.io/code-coverage: enabled
+    backstage.io/source-location: url:https://github.com/GITHUB_ORG/REPO/tree/main/
+    github.com/project-slug: 'GITHUB_ORG/REPO'
+    jira/project-key: JIRA_PROJECT
+    jira/label: REPO
+    snyk.io/org-id: SNYK_ORG_FOR_GITHUB_ORG
+    snyk.io/targets: GITHUB_ORG/REPO
+  labels:
+    distributed: "false"   # Required label; only true if the software is distributed to customers
+spec:
+  lifecycle: production
+  type: service
+  owner: GITHUB_TEAM
+  system: ARCHITECTURE_COMPONENT
