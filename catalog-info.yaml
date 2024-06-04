@@ -15,7 +15,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: rtkwlf-backstage-templates
+  name: rtkwlf-backstage-templates-testing
   title: Backstage Templates
   description: Templates entities for testing
   annotations:
