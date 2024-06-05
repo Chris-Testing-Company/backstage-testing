@@ -4,7 +4,7 @@ kind: Template
 metadata:
   name: catalog-info-generator-testing
   title: Catalog Info Generator Testing
-  description: Testing testing yah
+  description: Testing testing yah yo
 spec:
   owner: rnd_sre
   type: service
@@ -12,7 +12,7 @@ spec:
   # these are the steps which are rendered in the frontend with the form input
   parameters:
     - title: Fill in Core information
-      required:
+      # required:
         # - github_org
         # - repo
         # - title
@@ -76,7 +76,7 @@ spec:
             defaultKind: System  
         
     - title: Fill in Plugin related information
-      required:
+      # required:
         # - jira_project_key
       properties:
         jira_project_key: 
