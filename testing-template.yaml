@@ -77,7 +77,7 @@ spec:
         
     - title: Fill in Plugin related information
       required:
-        - jira_project_key
+        # - jira_project_key
       properties:
         jira_project_key: 
           title: Jira Project Key
