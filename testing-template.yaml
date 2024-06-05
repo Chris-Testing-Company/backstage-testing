@@ -13,13 +13,13 @@ spec:
   parameters:
     - title: Fill in Core information
       required:
-        - github_org
-        - repo
-        - title
-        - description
-        - distributed
-        - github_team
-        - system
+        # - github_org
+        # - repo
+        # - title
+        # - description
+        # - distributed
+        # - github_team
+        # - system
 
       properties:
         github_org:
