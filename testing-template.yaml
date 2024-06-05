@@ -4,7 +4,7 @@ kind: Template
 metadata:
   name: catalog-info-generator-testing
   title: Catalog Info Generator Testing
-  description: Testing testing
+  description: Testing testing yah
 spec:
   owner: rnd_sre
   type: service
@@ -103,7 +103,7 @@ spec:
     - action: publish:github:pull-request
       name: Create Github Pull Request
       input:
-        repoUrl: 'github.com/rtkwlf/backstage'
+        repoUrl: 'github.com?repo=backstage&owner=rtkwlf'
         branchName: add-catalog-info-file
         title: Add catalog-info.yaml to repo
         description: This PR is created by Backstage template entity. It is going to insert a catalog-info.yaml to repo for use in Backstage.
