@@ -8,9 +8,9 @@ metadata:
     jira/project-key: AWN
     jira/label: backstage
 spec:
-  type: other
-  lifecycle: unknown
-  owner: site-reliability-engineering
+  lifecycle: production
+  type: service
+  owner: rnd_cd
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Location
