@@ -1,0 +1,28 @@
+- id: github_actions_permissions_enable
+  name: Github Actions permissions is enabled
+  description: >
+    Github Actions is enabled for a specific repository.
+  ownerEntityRef: group:default/rnd_cd
+  rule:
+    factRef: arctic-wolf-ci-system:default/service
+    path: $.enabled
+    operator: equal
+    value: true
+  schedule:
+    frequency:
+      minutes: 60
+  passedMessage: Component is enable github actions permissions.
+  failedMessage: Component isn't enable github actions permissions.
+- id: github_actions_limited_permissions_scope
+  name: GitHub Actions permissions policy is protective
+  description: >
+    The GitHub Actions permissions policy is not set to "all allow".
+  ownerEntityRef: group:default/rnd_cd
+  rule:
+    factRef: arctic-wolf-ci-system:default/service
+    path: $.allowed_actions
+    operator: notEqual
+    value: 'all'
+  schedule:
+    frequency:
+      minutes: 60
