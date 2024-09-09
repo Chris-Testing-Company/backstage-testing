@@ -15,13 +15,11 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: rtkwlf-backstage-templates-testing
-  title: Backstage Templates Testing
-  description: Templates entities for testing
-  annotations:
-    github.com/project-slug: 'rtkwlf/backstage-entities'
+  name: backstage-mono-repo-testing
+  description: Backstage catalog-info.yaml files for cells in rtkwlf/awn
 spec:
   type: url
   targets:
-    - https://github.com/Chris-Testing-Company/backstage-testing/blob/main/testing-template.yaml
+    - https://github.com/Chris-Testing-Company/backstage-mono-repo-testing/mono1/catalog-info.yaml
+    - https://github.com/Chris-Testing-Company/backstage-mono-repo-testing/mono2/catalog-info.yaml
 
