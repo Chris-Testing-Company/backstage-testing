@@ -20,6 +20,6 @@ metadata:
 spec:
   type: url
   targets:
-    - https://github.com/Chris-Testing-Company/backstage-mono-repo-testing/mono1/catalog-info.yaml
-    - https://github.com/Chris-Testing-Company/backstage-mono-repo-testing/mono2/catalog-info.yaml
+    - https://github.com/Chris-Testing-Company/backstage-testing/blob/main/mono1/catalog-info.yaml
+    - https://github.com/Chris-Testing-Company/backstage-testing/blob/main/mono2/catalog-info.yaml
 
