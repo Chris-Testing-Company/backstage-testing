@@ -11,15 +11,3 @@ spec:
   lifecycle: production
   type: service
   owner: rnd_cd
----
-apiVersion: backstage.io/v1alpha1
-kind: Location
-metadata:
-  name: backstage-mono-repo-testing
-  description: Backstage catalog-info.yaml files for cells in rtkwlf/awn
-spec:
-  type: url
-  targets:
-    - https://github.com/Chris-Testing-Company/backstage-testing/blob/main/mono1/catalog-info.yaml
-    - https://github.com/Chris-Testing-Company/backstage-testing/blob/main/mono2/catalog-info.yaml
-
