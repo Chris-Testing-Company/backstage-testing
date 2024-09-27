@@ -6,7 +6,17 @@ metadata:
     github.com/project-slug: Chris-Testing-Company/backstage-testing
     backstage.io/techdocs-ref: dir:.
     jira/project-key: AWN
-    jira/label: backstage
+    jira/label: backstage-testing
+  links:
+    - url: https://infra.backstage.global-prod.rtkwlf.io
+      title: Backstage (Production)
+      icon: dashboard
+    - url: https://infra.backstage.us002-dev.rtkwlf.io
+      title: Backstage (Dev)
+      icon: dashboard
+    - url: https://github.com/rtkwlf/infrastructure/tree/main/cell/backstage
+      title: Deployment IaC
+      icon: github
 spec:
   lifecycle: production
   type: service
