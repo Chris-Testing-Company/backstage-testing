@@ -18,7 +18,7 @@ metadata:
       title: Backstage (C LEE)
       icon: github
     - url: https://github.com/rtkwlf/infrastructure/tree/main/cell/backstage
-      title: Deployment IaC
+      title: Deployment IaC ABC
       icon: github
 spec:
   lifecycle: production
