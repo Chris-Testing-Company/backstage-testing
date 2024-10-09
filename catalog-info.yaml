@@ -24,3 +24,16 @@ spec:
   lifecycle: production
   type: service
   owner: rnd_cd
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: backstage-testing-domains
+  title: Backstage Testing Domains and Systems
+  description: Domain and System entities for Backstage's component catalog
+  annotations:
+    github.com/project-slug: Chris-Testing-Company/backstage-testing
+spec:
+  type: url
+  targets:
+    - https://github.com/Chris-Testing-Company/backstage-testing/domains.yaml

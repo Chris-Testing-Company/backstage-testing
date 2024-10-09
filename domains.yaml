@@ -1,0 +1,27 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: applications-testing
+  title: Applications-testing
+spec:
+  owner: rnd
+  subdomainOf: applications-testing
+---
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: awareness-testing
+  title: Awareness-testing
+spec:
+  owner: rnd
+  subdomainOf: happy-testing
+---
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: happy-testing
+  title: happy-testing
+spec:
+  owner: rnd
+  subdomainOf: awareness-testing
