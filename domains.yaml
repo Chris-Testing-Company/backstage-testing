@@ -15,7 +15,7 @@ metadata:
   title: Awareness-testing
 spec:
   owner: rnd
-  subdomainOf: happy-testing
+  subdomainOf: happy-testing-2
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Domain
