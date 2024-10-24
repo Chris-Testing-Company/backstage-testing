@@ -15,7 +15,7 @@ metadata:
       title: Backstage (Dev)
       icon: dashboard
     - url: https://clee.backstage.us001-dev.rtkwlf.io/
-      title: Backstage (C LEE YO YO Test Apple)
+      title: Backstage (C LEE YO YO Test Apple oyo)
       icon: github
     - url: https://github.com/rtkwlf/infrastructure/tree/main/cell/backstage
       title: Deployment IaC ABC
